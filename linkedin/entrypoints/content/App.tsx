@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Modal from './Modal';
 import '../../assets/main.css'
 
-export default function CustomDialog() {
+export default function InsertedParentContainer() {
     const [modalContainer, setModalContainer] = useState<HTMLDivElement | null>(null);
 
     useEffect(() => {
